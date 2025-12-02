@@ -4,7 +4,7 @@ export default function WorkEntry() {
   const [workEntries, setWorkEntries] = useState([]);
   const [employees, setEmployees] = useState([]);
 
-  const API_BASE = "http://localhost/super-institute/Payment-Gateway-upload-repo-main/api";
+  const API_BASE = "http://localhost/super-institute/api";
 
   useEffect(() => {
     fetchEmployees();

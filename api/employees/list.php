@@ -1,6 +1,6 @@
 <?php
 // employees_list.php
-include "db_connect.php";
+include "../config/db.php";
 
 $sql = "SELECT * FROM employees ORDER BY id DESC";
 $result = $conn->query($sql);

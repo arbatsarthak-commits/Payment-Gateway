@@ -32,7 +32,7 @@ export default function Dashboard() {
 
   const fetchStats = async () => {
     try {
-      const res = await fetch("http://localhost/super-institute/Payment-Gateway-upload-repo-main/api/dashboard_stats.php");
+      const res = await fetch("http://localhost/super-institute/api/dashboard_stats.php");
       const data = await res.json();
       setStats(data);
     } catch (err) {

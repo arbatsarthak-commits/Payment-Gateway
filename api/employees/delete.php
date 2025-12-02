@@ -1,6 +1,6 @@
 <?php
 // delete_employee.php
-include "db_connect.php";
+include "../config/db.php";
 
 $id = isset($_GET['id']) ? (int)$_GET['id'] : 0;
 if ($id <= 0) {

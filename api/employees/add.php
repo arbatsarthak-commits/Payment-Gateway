@@ -1,6 +1,6 @@
 <?php
 // add_employee.php
-include "db_connect.php";
+include "../config/db.php";
 
 $message = "";
 

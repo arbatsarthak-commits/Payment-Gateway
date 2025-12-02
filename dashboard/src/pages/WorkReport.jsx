@@ -8,7 +8,7 @@ export default function WorkReport() {
     const [loading, setLoading] = useState(false);
     const [activeTab, setActiveTab] = useState("work"); // 'work' or 'payment'
 
-    const API_BASE = "http://localhost/super-institute/Payment-Gateway-upload-repo-main/api";
+    const API_BASE = "http://localhost/super-institute/api";
 
     useEffect(() => {
         fetchEmployees();

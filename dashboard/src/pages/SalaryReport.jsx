@@ -14,7 +14,7 @@ export default function SalaryReport() {
 
   const [viewDetails, setViewDetails] = useState(null);
 
-  const API_BASE = "http://localhost/super-institute/Payment-Gateway-upload-repo-main/api";
+  const API_BASE = "http://localhost/super-institute/api";
 
   useEffect(() => {
     fetchSalary();

@@ -1,6 +1,6 @@
 <?php
 // edit_employee.php
-include "db_connect.php";
+include "../config/db.php";
 
 // Ensure upload directories exist
 if (!is_dir('uploads')) {

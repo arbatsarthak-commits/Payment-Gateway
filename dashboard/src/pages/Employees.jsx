@@ -5,7 +5,7 @@ export default function Employees() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const API_URL = "http://localhost/super-institute/Payment-Gateway-upload-repo-main/api/employees.php";
+  const API_URL = "http://localhost/super-institute/api/employees.php";
 
   useEffect(() => {
     fetchEmployees();

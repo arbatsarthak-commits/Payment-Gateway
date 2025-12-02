@@ -1,6 +1,6 @@
 <?php
 // add_work.php
-include "db_connect.php";
+include "../config/db.php";
 
 // Employees dropdown ke liye data
 $empSql = "SELECT id, name FROM employees ORDER BY name";

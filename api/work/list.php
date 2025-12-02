@@ -1,6 +1,6 @@
 <?php
 // work_list.php
-include "db_connect.php";
+include "../config/db.php";
 
 // employee_work + employees ko join karke data la rahe hain
 $sql = "SELECT ew.*, e.name 
